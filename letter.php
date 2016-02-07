@@ -1,6 +1,6 @@
 <?php
-    $friend_name = "Jennifer";
-    $sender_name = "Joseph";
+    $friend_name = $_GET['recipient'];
+    $sender_name = $_GET['sender'];
 ?>
 
 <!DOCTYPE html>
